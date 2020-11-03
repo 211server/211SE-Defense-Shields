@@ -170,7 +170,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShieldEmitterGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShieldEmitters</DisplayName>
-            <Description>Shield Emitters for stations and ships.</Description>
+            <Description>空间站和飞船的护盾发生器.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterL" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterS" />
@@ -188,7 +188,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShieldControlGroup" />
             <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ControlGroup</DisplayName>
-            <Description>Shield Controllers, Enhancer, and Modulator.</Description>
+            <Description>护盾控制器,增强器和调制器.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlLarge" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlTable" />
@@ -202,7 +202,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShieldPressurizerGroup" />
             <Icon>Textures\Icons\DS_Supergen.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_Pressurizer</DisplayName>
-            <Description>Shield Air Pressurizer.</Description>
+            <Description>护盾空气增压器.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="DSSupergen" />
             </Blocks>
@@ -217,7 +217,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DarkStar</DisplayName>
+      <DisplayName>防护盾</DisplayName>
       <Name>DarkStar_Shield_MFG_INC</Name>
       <ItemIds>
         
@@ -250,7 +250,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlTable</SubtypeId>
       </Id>
-      <DisplayName>Shield Controller Table</DisplayName>
+      <DisplayName>护盾控制台</DisplayName>
+      <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control.dds</Icon>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -304,7 +305,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlLarge</SubtypeId>
       </Id>
-      <DisplayName>Shield Controller</DisplayName>
+      <DisplayName>护盾控制器</DisplayName>
+      <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -364,7 +366,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlSmall</SubtypeId>
       </Id>
-      <DisplayName>Shield Control</DisplayName>
+      <DisplayName>护盾控制器</DisplayName>
+      <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -741,7 +744,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterL</SubtypeId>
       </Id>
-      <DisplayName>Ship Shield Emitter</DisplayName>
+      <DisplayName>飞船护盾发生器</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -773,7 +776,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DefenseShieldBase_Large_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Emitter</BlockPairName>
-      <Description>An emitter for ships. Must be in the open to function and have a control block to work.</Description>
+      <Description>适用于飞船的护盾发生器.必须处于开启状态并在同一网格上存在控制块才能工作.</Description>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -892,7 +895,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterS</SubtypeId>
       </Id>
-      <DisplayName>Ship Shield Emitter</DisplayName>
+      <DisplayName>飞船护盾发生器</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -925,7 +928,7 @@
 		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\DefenseShieldBaseS_Small_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Emitter</BlockPairName>
-      <Description>An emitter for ships. Must be in the open to function and have a control block to work.</Description>
+      <Description>适用于飞船的护盾发生器.必须处于开启状态并在同一网格上存在控制块才能工作.</Description>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -941,7 +944,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterST</SubtypeId>
       </Id>
-      <DisplayName>Station Shield Emitter</DisplayName>
+      <DisplayName>空间站护盾发生器</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -973,7 +976,7 @@
 		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DefenseShieldStation_Large_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>StationEmitter</BlockPairName>
-      <Description>This emitter only works as a station block, if converted to ship it will not function. Also allows pressurization.</Description>
+      <Description>这种护盾发生器只能用于空间站,如果网格转换为飞船将不起作用.同时也提供空气加压功能.</Description>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -990,7 +993,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LargeShieldModulator</SubtypeId>
       </Id>
-      <DisplayName>Shield Modulator</DisplayName>
+      <DisplayName>护盾调制器</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ModulatorIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1016,7 +1019,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\ShieldModulatorLarge_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>ShieldModulator</BlockPairName>
-      <Description>Allows access to shields that have a modulation setting, set this block to the same setting as you have in the shielded grid.</Description>
+      <Description>护盾调制器可以让你设置护盾偏向于防御某种特定类型的伤害.</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <MountPoints>
@@ -1036,7 +1039,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>SmallShieldModulator</SubtypeId>
       </Id>
-      <DisplayName>Shield Modulator</DisplayName>
+      <DisplayName>护盾调制器</DisplayName>
+      <Description>护盾调制器可以让你设置护盾偏向于防御某种特定类型的伤害.</Description>
       <Icon>Textures\GUI\Icons\Cubes\ModulatorIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1082,7 +1086,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LargeEnhancer</SubtypeId>
       </Id>
-      <DisplayName>Shield Enhancer</DisplayName>
+      <DisplayName>护盾增强器</DisplayName>
+      <Description>护盾增强器提供额外的EMP防护,但同时也产生更多热量.</Description>
       <Icon>Textures\GUI\Icons\Cubes\DamageEnhancerIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1124,7 +1129,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>SmallEnhancer</SubtypeId>
       </Id>
-      <DisplayName>Shield Enhancer</DisplayName>
+      <DisplayName>护盾增强器</DisplayName>
+      <Description>护盾增强器提供额外的EMP防护,但同时也产生更多热量.</Description>
       <Icon>Textures\GUI\Icons\Cubes\DamageEnhancerIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1166,7 +1172,8 @@
           <TypeId>UpgradeModule</TypeId>
           <SubtypeId>EmitterLA</SubtypeId>
         </Id>
-        <DisplayName>Ship Shield Emitter</DisplayName>
+        <DisplayName>紧凑型飞船护盾发生器</DisplayName>
+        <Description>紧凑型飞船护盾发生器提供另一种形状的护盾发生器</Description>
         <Icon>Textures\GUI\Icons\Cubes\ArmoredEmitterIcon.dds</Icon>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -1215,7 +1222,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterSA</SubtypeId>
       </Id>
-      <DisplayName>Shield Compact Emitter</DisplayName>
+      <DisplayName>紧凑型飞船护盾发生器</DisplayName>
+      <Description>紧凑型飞船护盾发生器提供另一种形状的护盾发生器</Description>
       <Icon>Textures\GUI\Icons\Cubes\ArmoredEmitterIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
