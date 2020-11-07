@@ -250,7 +250,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlTable</SubtypeId>
       </Id>
-      <DisplayName>护盾控制台</DisplayName>
+      <DisplayName>护盾控制台-hdkzt-</DisplayName>
       <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -305,7 +305,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlLarge</SubtypeId>
       </Id>
-      <DisplayName>护盾控制器</DisplayName>
+      <DisplayName>护盾控制器-hdkzq-</DisplayName>
       <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -366,7 +366,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>DSControlSmall</SubtypeId>
       </Id>
-      <DisplayName>护盾控制器</DisplayName>
+      <DisplayName>护盾控制器-hdkzq-</DisplayName>
       <Description>护盾控制块控制着护盾发生器,护盾的大部分设置都在该装置上,没有它护盾将无法工作</Description>
       <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -744,7 +744,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterL</SubtypeId>
       </Id>
-      <DisplayName>飞船护盾发生器</DisplayName>
+      <DisplayName>飞船护盾发生器-fchdfsq-</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -895,7 +895,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterS</SubtypeId>
       </Id>
-      <DisplayName>飞船护盾发生器</DisplayName>
+      <DisplayName>飞船护盾发生器-fchdfsq-</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -944,7 +944,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterST</SubtypeId>
       </Id>
-      <DisplayName>空间站护盾发生器</DisplayName>
+      <DisplayName>空间站护盾发生器-kjzhdfsq-</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -993,7 +993,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LargeShieldModulator</SubtypeId>
       </Id>
-      <DisplayName>护盾调制器</DisplayName>
+      <DisplayName>护盾调制器-hdtzq-</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ModulatorIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1039,7 +1039,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>SmallShieldModulator</SubtypeId>
       </Id>
-      <DisplayName>护盾调制器</DisplayName>
+      <DisplayName>护盾调制器-hdtzq-</DisplayName>
       <Description>护盾调制器可以让你设置护盾偏向于防御某种特定类型的伤害.</Description>
       <Icon>Textures\GUI\Icons\Cubes\ModulatorIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -1086,7 +1086,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LargeEnhancer</SubtypeId>
       </Id>
-      <DisplayName>护盾增强器</DisplayName>
+      <DisplayName>护盾增强器-hdzqq-</DisplayName>
       <Description>护盾增强器提供额外的EMP防护,但同时也产生更多热量.</Description>
       <Icon>Textures\GUI\Icons\Cubes\DamageEnhancerIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1129,7 +1129,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>SmallEnhancer</SubtypeId>
       </Id>
-      <DisplayName>护盾增强器</DisplayName>
+      <DisplayName>护盾增强器-hdzqq-</DisplayName>
       <Description>护盾增强器提供额外的EMP防护,但同时也产生更多热量.</Description>
       <Icon>Textures\GUI\Icons\Cubes\DamageEnhancerIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -1172,7 +1172,7 @@
           <TypeId>UpgradeModule</TypeId>
           <SubtypeId>EmitterLA</SubtypeId>
         </Id>
-        <DisplayName>紧凑型飞船护盾发生器</DisplayName>
+        <DisplayName>紧凑型飞船护盾发生器-jcxcfhdfsq-</DisplayName>
         <Description>紧凑型飞船护盾发生器提供另一种形状的护盾发生器</Description>
         <Icon>Textures\GUI\Icons\Cubes\ArmoredEmitterIcon.dds</Icon>
         <CubeSize>Large</CubeSize>
@@ -1222,7 +1222,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>EmitterSA</SubtypeId>
       </Id>
-      <DisplayName>紧凑型飞船护盾发生器</DisplayName>
+      <DisplayName>紧凑型飞船护盾发生器-jcxfchdfsq-</DisplayName>
       <Description>紧凑型飞船护盾发生器提供另一种形状的护盾发生器</Description>
       <Icon>Textures\GUI\Icons\Cubes\ArmoredEmitterIcon.dds</Icon>
       <CubeSize>Small</CubeSize>
