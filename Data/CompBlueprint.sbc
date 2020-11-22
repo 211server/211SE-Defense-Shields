@@ -8,7 +8,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ShieldComponentBP</SubtypeId>
       </Id>
-      <DisplayName>Field Emitter</DisplayName>
+      <DisplayName>力场发生器</DisplayName>
       <Icon>Textures\Icons\Shield_Comp1.dds</Icon>
       <Prerequisites>
 	  <!-- Define Required Items List based on classnames-->
@@ -29,7 +29,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>ShieldComponent</SubtypeId>
       </Id>
-      <DisplayName>Field Emitter</DisplayName>
+      <DisplayName>力场发生器-lcfsq-</DisplayName>
       <Icon>Textures\Icons\Shield_Comp1.dds</Icon>
       <Size>
         <X>0.05</X>
@@ -50,6 +50,6 @@
   
  <!-- Location of Blueprint in Assembler menu -->
   <BlueprintClassEntries>
-	<Entry Class="Components" BlueprintSubtypeId="ShieldComponentBP" />
+	<Entry Class="Construction" BlueprintSubtypeId="ShieldComponentBP" />
   </BlueprintClassEntries>
 </Definitions>
